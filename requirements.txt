@@ -1,0 +1,16 @@
+discord.py==2.3.2
+instagramy
+python-dotenv==1.0.0
+instaloader==4.10.1
+requests==2.31.0
+beautifulsoup4==4.12.2
+selenium
+aiohttp==3.9.1 
+datetime
+time
+aiohttp
+json
+random
+load_doten
+asyncio
+instaloader
