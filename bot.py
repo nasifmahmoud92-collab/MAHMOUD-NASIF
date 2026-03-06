@@ -20,7 +20,7 @@ logger = logging.getLogger('discord_bot')
 
 # Load environment variables
 load_dotenv()
-‏TOKEN = "MTQ3OTMyMjE3NDU4OTI0MzQ1Mg.G60GnA.pUbzIEvup2Z46rwpBarV1dZi45CS8nWXMGZVAM"
+‏TOKEN = os.getenv('DISCORD_TOKEN')
 
 intents = discord.Intents.default()
 intents.message_content = True
@@ -977,5 +977,6 @@ if __name__ == '__main__':
         if session and not session.closed:
 
             asyncio.run(session.close())
+
 
 
